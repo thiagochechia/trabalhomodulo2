@@ -5,4 +5,27 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/thiagochechia/trabalhomodulo2.git
 git push -u origin main
+#########################################################################################################################
+
+
+#########################################################################################################################
+
+Uma Startup me solicitou o desenvolvimento de um aplicativo ( em Python) que verifica a compatibilidade de um candidato
+com uma vaga de acordo com os resultados obtidos no processo seletivo .
+Para isso foi criado um teste que devolve uma String no seguinte formato :
+
+eX_tX_pX_sX
+
+Sendo que cada X é substituído pela avaliacao do candidato em uma das etapas do processo seletivo :
+
+eX = Entrevista
+tX = Teste teórico
+pX = Teste Prático
+sX = Soft Skills
+
+##########################################################################################################################
+
+
+
+
 

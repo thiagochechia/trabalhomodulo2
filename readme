@@ -7,7 +7,7 @@ git remote add origin https://github.com/thiagochechia/trabalhomodulo2.git
 git push -u origin main
 #######################################################################################################################
                                           
-                                          ## SEARCH AND SAVE CANDIDATES. ##
+                                          ## SEARCH AND STORE CANDIDATES. ##
 
 #######################################################################################################################
 
@@ -26,7 +26,7 @@ pX = Teste Prático
 sX = Soft Skills
 
 #######################################################################################################################
-Este programa (SEARCH AND SAVE CANDIDATES.)
+Este programa (SEARCH AND STORE CANDIDATES.)
 foi desenvolvido em Python (3.11.2) nenhuma instalacao adicional foi utilizada foi desenvolvido no
 Sistema Operacional Mac Os (10.13.6) 
 

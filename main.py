@@ -83,7 +83,7 @@ while opcao != "3":
             for candidato in candidatos_encontrados:
                 nome = candidato['nome']
                 notas_candidato = candidato['notas']
-                notas_formatadas = " ".join(f"{letra}_{nota}" for letra, nota in zip(['e', 't', 'p', 's'], notas_candidato))
+                notas_formatadas = "_".join(f"{letra}{nota}" for letra, nota in zip(['e', 't', 'p', 's'], notas_candidato))
                 print(f"{nome} {notas_formatadas}")
         else:
             print("Nenhum candidato encontrado com as notas especificadas.")

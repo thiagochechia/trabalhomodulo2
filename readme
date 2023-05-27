@@ -6,7 +6,8 @@ git branch -M main
 git remote add origin https://github.com/thiagochechia/trabalhomodulo2.git
 git push -u origin main
 #######################################################################################################################
-
+                                          
+                                          # SEARCH AND SAVE CANDIDATES
 
 #######################################################################################################################
 
@@ -25,9 +26,20 @@ sX = Soft Skills
 
 #######################################################################################################################
 
-Este programa foi desenvolvido em Python e tem 2 funcoes principais :
+Este programa foi desenvolvido em Python (3.11.2) para Mac Os (10.13.6) e tem 2 funcoes principais :
 - Pesquisar e apresentar os candidatos que atendam as buscas do usuario do programa de acordo com suas notas. 
 - Inserir novos candidatos em uma lista.
 
+#######################################################################################################################
 
+Como funciona :
+Para executar este programa deve-se copiar o código do arquivo main.py deste diretorio 
+abrir o Visual Studio Code (1.78.2) criar um novo arquivo em Python e
+salva-lo na pasta de sua preferencia .
+Depois do arquivo já salvo , cole o conteúdo copiado do arquivo main.py nele e salve novamente .
+Basta rodar o programa rodar o programa e no terminal o usuario sera questionado se:
+
+1 - Deseja realizar uma pesquisa ,
+2 - Deseja adicionar um novo candidato
+3 - Sair do programa
 

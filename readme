@@ -1,10 +1,10 @@
-## SEARCH AND STORE CANDIDATES. ##
+                                              # ** SEARCH AND STORE CANDIDATES **
 
 #######################################################################################################################
 
 Uma Startup me solicitou o desenvolvimento de um aplicativo ( em Python) que verifica a compatibilidade de um candidato
 com uma vaga de acordo com os resultados obtidos no processo seletivo .
-Para isso foi criado um teste que devolve uma String no seguinte formato :
+Para isso foi criado um teste que devolve uma String no formato :
 
 Nome do candidato e suas notas no seguinte formato :      eX_tX_pX_sX
 
@@ -16,7 +16,7 @@ tX = Teste teórico
 pX = Teste Prático
 sX = Soft Skills
 
-#######################################################################################################################
+---
 Este programa (SEARCH AND STORE CANDIDATES.)
 foi desenvolvido em Python (3.11.2) nenhuma instalacao adicional foi utilizada foi desenvolvido no
 Sistema Operacional Mac Os (10.13.6) 
@@ -27,7 +27,7 @@ com suas notas(mínima de 1 e máxima de 10 apenas números inteiros inicialment
 
 2 - Inserir novos candidatos em uma lista.
 
-#######################################################################################################################
+---
 Como funciona :
 Para executar este programa deve-se copiar o arquivo main.py e executá-lo no 
 Visual Studio Code (1.78.2) .
@@ -44,7 +44,7 @@ com suas únicas funcionalidades o mesmo será questionado se deseja:
 1 - Deseja realizar uma pesquisa 
 2 - Deseja adicionar um novo candidato
 3 - Sair do programa
-#######################################################################################################################
+---
 
 Author Informations
 - 👋 Hi, I’m @thiagochechia, https://www.linkedin.com/in/thiagochechia   ,     

@@ -49,7 +49,7 @@ lista_candidatos = [
 
 opcao = "0"
 while opcao != "3":
-    print("Opções:")
+    print(" \n Opções:")
     print("1 - Realizar uma pesquisa")
     print("2 - Inserir um candidato")
     print("3 - Sair do programa")

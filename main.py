@@ -39,44 +39,53 @@ lista_candidatos = [
     {"nome": "Ana", "notas": [7, 6, 8, 9]}
 ]
 
-continuar = True
-while continuar:
-    notas_busca = []
-    for i in range(4):
-        nota_valida = False
-        while not nota_valida:
-            if i == 0:
-                nota = input("Digite sua nota para Entrevista (entre 1 e 10): ")
-            elif i == 1:
-                nota = input("Digite sua nota para Teste Teórico (entre 1 e 10): ")
-            elif i == 2:
-                nota = input("Digite sua nota para Teste Prático (entre 1 e 10): ")
-            else:
-                nota = input("Digite sua nota para Soft Skills (entre 1 e 10): ")
+opcao = "0"
+while opcao != "3":
+    print("Opções:")
+    print("1 - Realizar uma pesquisa")
+    print("2 - Inserir um candidato")
+    print("3 - Sair do programa")
 
-            if nota.isdigit() and 1 <= int(nota) <= 10:
-                notas_busca.append(int(nota))
-                nota_valida = True
-            else:
-                print("Valor inválido. Digite um número entre 1 e 10.")
+    opcao = input("Escolha uma opção: ")
 
-    candidatos_encontrados = buscar_candidatos(notas_busca, lista_candidatos)
+    if opcao == "1":
+        notas_busca = []
+        for i in range(4):
+            nota_valida = False
+            while not nota_valida:
+                if i == 0:
+                    nota = input("Digite sua nota para Entrevista (entre 1 e 10): ")
+                elif i == 1:
+                    nota = input("Digite sua nota para Teste Teórico (entre 1 e 10): ")
+                elif i == 2:
+                    nota = input("Digite sua nota para Teste Prático (entre 1 e 10): ")
+                else:
+                    nota = input("Digite sua nota para Soft Skills (entre 1 e 10): ")
 
-    if len(candidatos_encontrados) > 0:
-        print("Candidatos encontrados:")
-        for candidato in candidatos_encontrados:
-            nome = candidato['nome']
-            notas_candidato = candidato['notas']
-            notas_formatadas = " ".join(f"{letra}_{nota}" for letra, nota in zip(['e', 't', 'p', 's'], notas_candidato))
-            print(f"{nome} {notas_formatadas}")
-    else:
-        print("Nenhum candidato encontrado com as notas especificadas.")
+                if nota.isdigit() and 1 <= int(nota) <= 10:
+                    notas_busca.append(int(nota))
+                    nota_valida = True
+                else:
+                    print("Valor inválido. Digite um número entre 1 e 10.")
 
-    opcao = input("Deseja pesquisar novamente? (S/N): ")
-    if opcao.upper() != 'S':
-        continuar = False
-        continue  # Pular para a próxima iteração do loop
+        candidatos_encontrados = buscar_candidatos(notas_busca, lista_candidatos)
 
-    opcao_adicionar = input("Deseja adicionar um novo candidato? (S/N): ")
-    if opcao_adicionar.upper() == 'S':
+        if len(candidatos_encontrados) > 0:
+            print("Candidatos encontrados:")
+            for candidato in candidatos_encontrados:
+                nome = candidato['nome']
+                notas_candidato = candidato['notas']
+                notas_formatadas = " ".join(f"{letra}_{nota}" for letra, nota in zip(['e', 't', 'p', 's'], notas_candidato))
+                print(f"{nome} {notas_formatadas}")
+        else:
+            print("Nenhum candidato encontrado com as notas especificadas.")
+
+    elif opcao == "2":
         adicionar_candidato(lista_candidatos)
+
+    elif opcao == "3":
+        print("Programa encerrado.")
+        break
+
+    else:
+        print("Opção inválida. Digite novamente.")

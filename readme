@@ -1,13 +1,4 @@
-echo "# trabalhomodulo2" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/thiagochechia/trabalhomodulo2.git
-git push -u origin main
-#######################################################################################################################
-                                          
-                                          ## SEARCH AND STORE CANDIDATES. ##
+## SEARCH AND STORE CANDIDATES. ##
 
 #######################################################################################################################
 
@@ -47,10 +38,20 @@ Copie o código fonte do arquivo main.py deste diretorio
 abra o Visual Studio Code (1.78.2) crie um novo arquivo em Python e
 salve-o na pasta de sua preferencia .
 Depois que o arquivo já estiver salvo , cole o conteúdo copiado do arquivo main.py nele e salve novamente .
-Basta rodar o programa rodar o programa e no terminal o usuario sera levado a um Menu Principal com suas únicas funcionalidades 
-o mesmo será questionado se deseja:
+Basta rodar o programa rodar o programa e no terminal o usuario sera levado a um Menu Principal 
+com suas únicas funcionalidades o mesmo será questionado se deseja:
 
 1 - Deseja realizar uma pesquisa 
 2 - Deseja adicionar um novo candidato
 3 - Sair do programa
+#######################################################################################################################
+
+Author Informations
+- 👋 Hi, I’m @thiagochechia, https://www.linkedin.com/in/thiagochechia   ,     
+- 👀 I’m interested in Java,libraries, Frameworks,R, React Angular Excel,Power BI,Web Development,Sql C++
+- 🌱 I’m currently learning Python, Html5 , Java Script,CSS3,C++,SQL,Visual Basic,Access
+- 💞️ I’m looking to collaborate on social projects to help the people to feel LOVE and kindness .
+- 📫 How to reach me = email ==     thiagochechia@me.com
+
+
 

@@ -25,7 +25,9 @@ sX = Soft Skills
 
 #######################################################################################################################
 
-
+Este programa foi desenvolvido em Python e tem 2 funcoes principais :
+- Pesquisar e apresentar os candidatos que atendam as buscas do usuario do programa de acordo com suas notas. 
+- Inserir novos candidatos em uma lista.
 
 
 

@@ -15,9 +15,10 @@ Uma Startup me solicitou o desenvolvimento de um aplicativo ( em Python) que ver
 com uma vaga de acordo com os resultados obtidos no processo seletivo .
 Para isso foi criado um teste que devolve uma String no seguinte formato :
 
-eX_tX_pX_sX
+Nome do candidato e suas notas no seguinte formato :      eX_tX_pX_sX
 
-Sendo que cada X é substituído pela avaliacao do candidato em uma das etapas do processo seletivo :
+Sendo que cada X acima na string (eX_tX_pX_sX) é substituído pelas notas do candidato em cada uma das etapas 
+correspondentes do processo seletivo abaixo :
 
 eX = Entrevista
 tX = Teste teórico

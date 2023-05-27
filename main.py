@@ -13,13 +13,13 @@ def adicionar_candidato(lista_candidatos):
         nota_valida = False
         while not nota_valida:
             if i == 0:
-                nota = input("Digite sua nota para Entrevista (entre 1 e 10): ")
+                nota = input("Digite sua nota para Entrevista (Somente números inteiros entre 1 e 10): ")
             elif i == 1:
-                nota = input("Digite sua nota para Teste Teórico (entre 1 e 10): ")
+                nota = input("Digite sua nota para Teste Teórico (Somente números inteiros entre 1 e 10): ")
             elif i == 2:
-                nota = input("Digite sua nota para Teste Prático (entre 1 e 10): ")
+                nota = input("Digite sua nota para Teste Prático (Somente números inteiros entre 1 e 10): ")
             else:
-                nota = input("Digite sua nota para Soft Skills (entre 1 e 10): ")
+                nota = input("Digite sua nota para Soft Skills (Somente números inteiros entre 1 e 10): ")
 
             if nota.isdigit() and 1 <= int(nota) <= 10:
                 notas.append(int(nota))
@@ -33,7 +33,15 @@ def adicionar_candidato(lista_candidatos):
 
 # Exemplo de uso
 lista_candidatos = [
-    {"nome": "João", "notas": [7, 8, 9, 6]},
+    {"nome": "RPhael", "notas": [10, 10, 10, 10]},
+    {"nome": "William", "notas": [10, 10, 9, 10]},
+    {"nome": "Jseph", "notas": [8, 8, 9, 6]},
+    {"nome": "Vic", "notas": [9, 6, 9, 6]},
+    {"nome": "Thiago", "notas": [5, 5, 5, 0]},
+    {"nome": "Luck", "notas": [7, 8, 9, 9]},
+    {"nome": "Feibs", "notas": [7, 8, 9, 6]},
+    {"nome": "Jac", "notas": [7, 6, 5, 5]},
+    {"nome": "Edineutron", "notas": [3, 4, 5, 3]},
     {"nome": "Maria", "notas": [6, 7, 8, 9]},
     {"nome": "Pedro", "notas": [8, 7, 6, 9]},
     {"nome": "Ana", "notas": [7, 6, 8, 9]}
@@ -54,13 +62,13 @@ while opcao != "3":
             nota_valida = False
             while not nota_valida:
                 if i == 0:
-                    nota = input("Digite sua nota para Entrevista (entre 1 e 10): ")
+                    nota = input("Digite sua nota para Entrevista (Somente números inteiros entre 1 e 10): ")
                 elif i == 1:
-                    nota = input("Digite sua nota para Teste Teórico (entre 1 e 10): ")
+                    nota = input("Digite sua nota para Teste Teórico (Somente números inteiros entre 1 e 10): ")
                 elif i == 2:
-                    nota = input("Digite sua nota para Teste Prático (entre 1 e 10): ")
+                    nota = input("Digite sua nota para Teste Prático (Somente números inteiros entre 1 e 10): ")
                 else:
-                    nota = input("Digite sua nota para Soft Skills (entre 1 e 10): ")
+                    nota = input("Digite sua nota para Soft Skills (Somente números inteiros entre 1 e 10): ")
 
                 if nota.isdigit() and 1 <= int(nota) <= 10:
                     notas_busca.append(int(nota))

@@ -16,7 +16,7 @@ tX = Teste teórico
 pX = Teste Prático
 sX = Soft Skills
 
----
+#######################################################################################################################
 Este programa (SEARCH AND STORE CANDIDATES.)
 foi desenvolvido em Python (3.11.2) nenhuma instalacao adicional foi utilizada foi desenvolvido no
 Sistema Operacional Mac Os (10.13.6) 
@@ -27,7 +27,7 @@ com suas notas(mínima de 1 e máxima de 10 apenas números inteiros inicialment
 
 2 - Inserir novos candidatos em uma lista.
 
----
+#######################################################################################################################
 Como funciona :
 Para executar este programa deve-se copiar o arquivo main.py e executá-lo no 
 Visual Studio Code (1.78.2) .
@@ -44,9 +44,9 @@ com suas únicas funcionalidades o mesmo será questionado se deseja:
 1 - Deseja realizar uma pesquisa 
 2 - Deseja adicionar um novo candidato
 3 - Sair do programa
----
+#######################################################################################################################
 
-Author Informations
+Personal Info:
 - 👋 Hi, I’m @thiagochechia, https://www.linkedin.com/in/thiagochechia   ,     
 - 👀 I’m interested in Java,libraries, Frameworks,R, React Angular Excel,Power BI,Web Development,Sql C++
 - 🌱 I’m currently learning Python, Html5 , Java Script,CSS3,C++,SQL,Visual Basic,Access

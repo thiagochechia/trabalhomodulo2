@@ -7,7 +7,7 @@ git remote add origin https://github.com/thiagochechia/trabalhomodulo2.git
 git push -u origin main
 #######################################################################################################################
                                           
-                                          # SEARCH AND SAVE CANDIDATES
+                                          ## SEARCH AND SAVE CANDIDATES. ##
 
 #######################################################################################################################
 
@@ -25,21 +25,31 @@ pX = Teste Prático
 sX = Soft Skills
 
 #######################################################################################################################
+Este programa (SEARCH AND SAVE CANDIDATES.)
+foi desenvolvido em Python (3.11.2) nenhuma instalacao adicional foi utilizada foi desenvolvido no
+Sistema Operacional Mac Os (10.13.6) 
 
-Este programa foi desenvolvido em Python (3.11.2) para Mac Os (10.13.6) e tem 2 funcoes principais :
-- Pesquisar e apresentar os candidatos que atendam as buscas do usuario do programa de acordo com suas notas. 
-- Inserir novos candidatos em uma lista.
+Tem 2 Funcionalidades :
+1 - Pesquisar e apresentar os candidatos que atendam as buscas do usuario do programa de acordo 
+com suas notas(mínima de 1 e máxima de 10 apenas números inteiros inicialmente). 
+
+2 - Inserir novos candidatos em uma lista.
 
 #######################################################################################################################
-
 Como funciona :
-Para executar este programa deve-se copiar o código do arquivo main.py deste diretorio 
-abrir o Visual Studio Code (1.78.2) criar um novo arquivo em Python e
-salva-lo na pasta de sua preferencia .
-Depois do arquivo já salvo , cole o conteúdo copiado do arquivo main.py nele e salve novamente .
-Basta rodar o programa rodar o programa e no terminal o usuario sera questionado se:
+Para executar este programa deve-se copiar o arquivo main.py e executá-lo no 
+Visual Studio Code (1.78.2) .
+Ou lhes ofereco a
+Opcao de executar em modo seguro sem precisar abrir um arquivo de fonte desconhecida em seu PC.
+How ? lol#
+Copie o código fonte do arquivo main.py deste diretorio 
+abra o Visual Studio Code (1.78.2) crie um novo arquivo em Python e
+salve-o na pasta de sua preferencia .
+Depois que o arquivo já estiver salvo , cole o conteúdo copiado do arquivo main.py nele e salve novamente .
+Basta rodar o programa rodar o programa e no terminal o usuario sera levado a um Menu Principal com suas únicas funcionalidades 
+o mesmo será questionado se deseja:
 
-1 - Deseja realizar uma pesquisa ,
+1 - Deseja realizar uma pesquisa 
 2 - Deseja adicionar um novo candidato
 3 - Sair do programa
 
